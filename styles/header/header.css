@@ -1,0 +1,13 @@
+.header {
+    margin: 28px 49px;
+    height: 52px;
+    width: 92%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    border: red 1px solid
+}
+
+.header__logo {
+
+}

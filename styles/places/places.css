@@ -1,0 +1,49 @@
+
+.places {
+    display: flex;
+    width: 77%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.places__card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-areas:
+    "title website"
+    "image paragraph";
+    row-gap: 48px;
+    column-gap: 40px;
+    padding-top: 80px;
+}
+
+.places__title {
+    grid-area: title;
+    margin: 0;
+    font-weight: 900;
+}
+
+.places__image {
+    grid-area: image;
+    width: 460px;
+}
+
+.places__paragraph {
+    grid-area: paragraph;
+    line-height: 163%;
+}
+
+.places__website {
+    grid-area: website;
+    height: min-content;
+    justify-self: start;
+    align-self: end;
+
+}
+
+a:link, a:visited {
+    color: white;
+    line-height: 22px;
+    text-underline-offset: 5px;
+}

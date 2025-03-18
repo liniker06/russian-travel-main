@@ -1,0 +1,12 @@
+.intro {
+    align-items: center;
+    width: 77%;
+    margin: auto;
+}
+
+.intro__content {
+    width: 70%;
+}
+.intro {
+    line-height: 153%;
+}

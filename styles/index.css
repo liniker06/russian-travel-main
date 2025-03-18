@@ -1,0 +1,29 @@
+@import 'text.css';
+@import 'fonts.css';
+@import 'font-weight.css';
+
+@import 'header/header.css';
+@import 'header/header__logo.css';
+@import 'header/header__link.css';
+@import 'header/header__links.css';
+
+@import 'tead/tead.css';
+
+@import 'intro/intro.css';
+
+@import 'photo-grid/photo-grid.css';
+
+@import 'places/places.css';
+
+@import 'cover/cover.css';
+
+@import 'footer/footer.css';
+
+.page {
+    padding: 0;
+    margin: 0 auto;
+    background-color: #2A2C2F;
+    font-family: Inter, 'inter', serif;
+    color: white;
+    width: 1280px;
+}
