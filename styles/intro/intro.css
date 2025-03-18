@@ -1,12 +1,50 @@
 .intro {
-    align-items: center;
     width: 77%;
     margin: auto;
+    display: grid;
 }
 
 .intro__content {
-    width: 70%;
+    width: 78%;
+    align-self: end;
+    justify-self: start;
 }
-.intro {
-    line-height: 153%;
+
+.intro__title {
+    line-height: 58px;
+}
+
+.intro__text {
+    line-height: 163%;
+}
+
+.intro__list {
+    list-style-type: none;
+    padding: 0;
+    line-height: 18px;
+}
+
+
+@media screen and (max-device-width: 1024px){
+    .intro {
+        width: 90%;
+    }
+}
+
+@media screen and (max-device-width: 768px){
+    .intro {
+        width: 93%;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .intro {
+        width: 90%;
+    }
+    .intro__title {
+        line-height: 58px;
+    }
+    .intro__content {
+        width: 100%;
+    }
 }

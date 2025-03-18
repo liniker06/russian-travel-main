@@ -5,10 +5,8 @@
 }
 
 .lead__heading {
-    width: 720px;
     text-align: center;
     font-weight: bold;
-    line-height: 100px;
     margin: auto;
 }
 
@@ -28,7 +26,33 @@
     margin-top: 0;
 }
 
-.intro__list {
-    list-style-type: none;
-    padding: 0;
+@media screen and (max-device-width: 1024px){
+    .lead {
+        width: 90%;
+    }
+}
+
+@media screen and (max-device-width: 768px){
+    .lead {
+        width: 100%;
+    }
+    .lead__caption {
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .lead {
+        width: 100%;
+    }
+
+    .lead__subtitle {
+        text-align: center;
+        line-height: 36px;
+        margin: 12px auto 34px auto;
+    }
+    .lead__caption {
+        padding-left: 15px;
+    }
+
 }

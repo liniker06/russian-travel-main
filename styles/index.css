@@ -16,6 +16,9 @@
 @import 'places/places.css';
 
 @import 'cover/cover.css';
+@import 'cover/__content/cover__content.css';
+@import 'cover/__heading/cover__heading.css';
+@import 'cover/__subtitle/cover__subtitle.css';
 
 @import 'footer/footer.css';
 
@@ -27,3 +30,24 @@
     color: white;
     width: 1280px;
 }
+
+
+@media screen and (max-device-width: 1024px){
+    .page {
+        width: 1024px;
+    }
+}
+
+@media screen and (max-device-width: 768px){
+    .page {
+        width: 768px;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .page {
+        width: 320px;
+    }
+}
+
+

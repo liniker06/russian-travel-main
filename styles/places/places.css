@@ -47,3 +47,70 @@ a:link, a:visited {
     line-height: 22px;
     text-underline-offset: 5px;
 }
+
+
+@media screen and (max-device-width: 1024px){
+    .places {
+        width: 90%
+    }
+
+    .places__card {
+        row-gap: 48px;
+        column-gap: 32px;
+    }
+
+    .places__image {
+        width: 540px;
+    }
+}
+
+@media screen and (max-device-width: 768px){
+    .places {
+        width: 93%
+    }
+
+    .places__card {
+        row-gap: 48px;
+        column-gap: 28px;
+    }
+
+    .places__image {
+        width: 340px;
+    }
+}
+
+
+@media screen and (max-device-width: 320px) {
+    .places {
+        width: 100%
+    }
+
+    .places__card {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, minmax(min-content, max-content));
+        grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraph";
+        row-gap: 32px;
+        column-gap: 40px;
+        padding-top: 50px;
+    }
+
+    .places__title {
+        padding-left: 16px;
+    }
+    .places__paragraph {
+        padding-left: 16px;
+    }
+    .places__website {
+        padding-left: 16px;
+    }
+
+    .places__image {
+        width: 320px;
+    }
+}
+
+
