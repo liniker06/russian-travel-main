@@ -3,3 +3,16 @@
     margin: 0;
     font-weight: 900;
 }
+
+
+
+
+
+
+@media screen and (max-device-width: 320px) {
+
+    .places__title {
+        padding-left: 16px;
+    }
+
+}

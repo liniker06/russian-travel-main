@@ -4,3 +4,13 @@
     line-height: 36px;
     margin: 32px auto 64px auto;
 }
+
+
+
+@media screen and (max-device-width: 320px) {
+    .lead__subtitle {
+        text-align: center;
+        line-height: 36px;
+        margin: 12px auto 34px auto;
+    }
+}

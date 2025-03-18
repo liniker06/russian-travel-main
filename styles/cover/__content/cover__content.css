@@ -3,3 +3,11 @@
     padding-top: 154px;
     width: 55%
 }
+
+
+@media screen and (max-device-width: 320px) {
+    .cover__content {
+        padding-top: 30px;
+        width: 90%
+    }
+}

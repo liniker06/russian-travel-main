@@ -4,3 +4,11 @@
     justify-self: start;
     align-self: end;
 }
+
+
+@media screen and (max-device-width: 320px) {
+
+    .places__website {
+        padding-left: 16px;
+    }
+}

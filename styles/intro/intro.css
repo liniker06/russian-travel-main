@@ -20,10 +20,4 @@
     .intro {
         width: 90%;
     }
-    .intro__title {
-        line-height: 58px;
-    }
-    .intro__content {
-        width: 100%;
-    }
 }

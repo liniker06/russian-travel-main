@@ -18,11 +18,3 @@
         max-width: 90%;
     }
 }
-
-
-@media screen and (max-device-width: 320px) {
-    .footer__links {
-        flex-direction: column;
-        gap:3px;
-    }
-}

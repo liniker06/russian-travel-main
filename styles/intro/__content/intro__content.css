@@ -3,3 +3,8 @@
     align-self: end;
     justify-self: start;
 }
+@media screen and (max-device-width: 320px) {
+    .intro__content {
+        width: 100%;
+    }
+}

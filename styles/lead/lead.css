@@ -4,6 +4,8 @@
     margin: auto;
 }
 
+
+
 @media screen and (max-device-width: 1024px){
     .lead {
         width: 90%;
@@ -12,25 +14,12 @@
 
 @media screen and (max-device-width: 768px){
     .lead {
-        width: 100%;
-    }
-    .lead__caption {
-        padding-left: 25px;
+        width: 94%;
     }
 }
 
 @media screen and (max-device-width: 320px) {
     .lead {
-        width: 100%;
+        width: 90%;
     }
-
-    .lead__subtitle {
-        text-align: center;
-        line-height: 36px;
-        margin: 12px auto 34px auto;
-    }
-    .lead__caption {
-        padding-left: 15px;
-    }
-
 }

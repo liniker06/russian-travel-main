@@ -6,24 +6,13 @@
     color: white;
     justify-content: space-between;
 }
-
 @media screen and (max-device-width: 1024px){
     .header {
         width: 90%;
     }
 }
 
-@media screen and (max-device-width: 768px){
-    .lead {
-        width: 94%;
-    }
-}
-
 @media screen and (max-device-width: 320px) {
-    .lead {
-        width: 90%;
-    }
-
     .header {
         margin: auto;
         padding-bottom: 26px;

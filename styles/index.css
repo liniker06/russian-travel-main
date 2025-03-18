@@ -1,6 +1,7 @@
 @import 'modify/text.css';
 @import 'modify/fonts.css';
 @import 'modify/font-weight.css';
+@import 'media.css';
 
 @import 'header/header.css';
 @import 'header/__logo/header__logo.css';

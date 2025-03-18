@@ -2,3 +2,12 @@
     grid-area: paragraph;
     line-height: 163%;
 }
+
+
+
+@media screen and (max-device-width: 320px) {
+    .places__paragraph {
+        padding-left: 16px;
+    }
+
+}
