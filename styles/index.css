@@ -1,19 +1,34 @@
-@import 'text.css';
-@import 'fonts.css';
-@import 'font-weight.css';
+@import 'modify/text.css';
+@import 'modify/fonts.css';
+@import 'modify/font-weight.css';
 
 @import 'header/header.css';
-@import 'header/header__logo.css';
-@import 'header/header__link.css';
-@import 'header/header__links.css';
+@import 'header/__logo/header__logo.css';
+@import 'header/__link/header__link.css';
+@import 'header/__links/header__links.css';
 
-@import 'tead/tead.css';
+@import 'lead/lead.css';
+@import 'lead/__caption/lead__caption.css';
+@import 'lead/__heading/lead__heading.css';
+@import 'lead/__image/lead__image.css';
+@import 'lead/__subtitle/lead__subtitle.css';
 
 @import 'intro/intro.css';
+@import 'intro/__content/intro__content.css';
+@import 'intro/__list/intro__list.css';
+@import 'intro/__text/intro__text.css';
+@import 'intro/__title/intro__title.css';
 
 @import 'photo-grid/photo-grid.css';
+@import 'photo-grid/__container/photo-grid__container.css';
+@import 'photo-grid/__photo/photo-grid__photo.css';
 
 @import 'places/places.css';
+@import 'places/__card/places__card.css';
+@import 'places/__image/places__image.css';
+@import 'places/__paragraph/places__paragraph.css';
+@import 'places/__title/places__title.css';
+@import 'places/__website/places__website.css';
 
 @import 'cover/cover.css';
 @import 'cover/__content/cover__content.css';
@@ -21,6 +36,10 @@
 @import 'cover/__subtitle/cover__subtitle.css';
 
 @import 'footer/footer.css';
+@import 'footer/__item/footer__item.css';
+@import 'footer/__links/footer__links.css';
+
+
 
 .page {
     padding: 0;

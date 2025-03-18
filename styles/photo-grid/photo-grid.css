@@ -6,28 +6,16 @@
 
 }
 
-.photo__container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, auto);
-    gap: 16px;
-}
-
-.photo {
-    width: 100%;
-    height: auto;
-}
-
 
 @media screen and (max-device-width: 1024px){
-    .photo__container {
+    .photo-grid__container {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, auto);
     }
 }
 
 @media screen and (max-device-width: 768px){
-    .photo__container {
+    .photo-grid__container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, auto);
     }
@@ -35,10 +23,10 @@
 
 
 @media screen and (max-device-width: 320px) {
-    .photo {
+    .photo-grid__photo {
         margin: auto;
     }
-    .photo__container {
+    .photo-grid__container {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(12, auto);
     }

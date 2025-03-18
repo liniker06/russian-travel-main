@@ -1,0 +1,6 @@
+.places__website {
+    grid-area: website;
+    height: min-content;
+    justify-self: start;
+    align-self: end;
+}

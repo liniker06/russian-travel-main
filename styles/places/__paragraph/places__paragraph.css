@@ -1,0 +1,4 @@
+.places__paragraph {
+    grid-area: paragraph;
+    line-height: 163%;
+}
